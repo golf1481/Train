@@ -16,15 +16,15 @@ const int SCLpin = 40;
 const int SDApin = 41;
 Adafruit_SHT4x sht4 = Adafruit_SHT4x();
 
-#define WIFI_SSID "MIC_2.4GHz"
+#define WIFI_SSID ""
 #define WIFI_PASSWORD "999999999"
 
-#define API_KEY "AIzaSyCL1c8gSblusSfFoePq0HHUkyCfzEcxdZE"
+#define API_KEY ""
 
-#define DATABASE_URL "cucumber-20a25-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
-#define USER_EMAIL "teeraponete148@gmail.com"
-#define USER_PASSWORD "123456"
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
 // Define Firebase Data object
 FirebaseData fbdo;
