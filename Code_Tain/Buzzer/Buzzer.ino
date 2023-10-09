@@ -1,5 +1,4 @@
 #define buzzer 7
-
 void setup() 
 {
   pinMode(buzzer, OUTPUT);
@@ -7,8 +6,8 @@ void setup()
 
 void loop() 
 {
-  digitalWrite(buzzer, HIGH);
-  delay(100);
-  digitalWrite(buzzer, LOW);
-  delay(5000);
+  analogWrite(buzzer, 0);
+  delay(1000);
+  analogWrite(buzzer, 0);
+  delay(1000);
 }

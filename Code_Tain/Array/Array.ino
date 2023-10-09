@@ -1,4 +1,7 @@
 int myArray[6] = {1, 3, 5, 7, 8, 9};
+String names[100] = {"Alice", "Bob", "Charlie", "Dave"};
+
+int z;
 
 void setup()
 {
@@ -8,6 +11,6 @@ void setup()
 
 void loop()
 {
-  Serial.print("myArray[2] : ");Serial.println(myArray[2]);
+  Serial.print("names[2] : ");Serial.println(names[2]);
   delay(1000);
 }
